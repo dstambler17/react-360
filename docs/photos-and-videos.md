@@ -58,7 +58,7 @@ When using a 3D background, the depth effect will only be visible when viewing i
 
 ### Photo Layout Format
 
-For 360 image, React 360 currently support two different type of 360 photo layout encoding. React 360 will automatically detects the layout from the aspect-ratio of the image:
+For 360 image, React 360 currently supports two differents type of 360 photo layout encoding. React 360 will automatically detect the layout from the aspect-ratio of the image:
 
  - **Equirectangular**: Equirectangular photo uses equirectangular projection
  - **1x6 Cubic Format**: The 1x6 Cubic format is organized with 6 undistorted, perspective images on each direction in the order of `right, left, top, bottom, back, front` from top to bottom. 
@@ -81,7 +81,7 @@ Environment.setBackground(
 
 ## Displaying Videos
 
-Video are handled in two parts: first, the creation of a Video Player, and then mapping that player to your Environment. The separation of video playback from the environment itself allows you to control the progression of video from different locations in your codebase.
+Videos are handled in two parts: first, the creation of a Video Player, and then mapping that player to your Environment. The separation of video playback from the environment itself allows you to control the progression of video from different locations in your codebase.
 
 Environment support two ways of rendering video:
  - 360 background video
